@@ -10,7 +10,7 @@
                             <a href="{{url('/')}}" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('/berita')}}" class="nav-link">Gallery</a>
+                            <a href="{{url('/gallery')}}" class="nav-link">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{url('/kontak')}}" class="nav-link">Contact Us</a>
