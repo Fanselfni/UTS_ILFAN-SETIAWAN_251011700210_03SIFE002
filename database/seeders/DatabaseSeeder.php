@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Gallery;
+use App\Models\Craft;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -15,8 +15,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call([
-            GallerySeeder::class,
-        ]);
+        $this->call(CraftSeeder::class);
     }
-}
+}    
