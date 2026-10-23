@@ -16,7 +16,7 @@
                     Craftos adalah platform galeri dan marketplace terkurasi yang menghubungkan para pengrajin lokal berbakat dengan pencinta seni dan kerajinan tangan autentik di seluruh dunia.
                 </p>
                 <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-                    <a href="{{ url('/galeri') }}" class="btn btn-light btn-lg px-4 fw-semibold text-dark rounded-pill shadow-sm">
+                    <a href="{{ url('/craft') }}" class="btn btn-light btn-lg px-4 fw-semibold text-dark rounded-pill shadow-sm">
                         Jelajahi Katalog
                     </a>
                     <a href="{{ url('/about') }}" class="btn btn-outline-light btn-lg px-4 fw-semibold rounded-pill">
